@@ -14,6 +14,8 @@ function generateLists(event) {
     let optionsDiv = document.createElement("div");
     let delBtn = document.createElement("a");
     let checkBtn = document.createElement("a");
+    delBtn.setAttribute("class", "del");
+    checkBtn.setAttribute("class", "checkBtn");
     titleTask.innerHTML = `<span>${currentTask}.</span> ${taskInput.value}`;
     delBtn.innerHTML = `<i class="fa-solid fa-trash"></i>`;
     checkBtn.innerHTML = `<i class="fa-solid fa-check"></i>`;
