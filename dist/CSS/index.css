@@ -40,6 +40,11 @@ main .container ul li .checkBtn:hover {
   color: white;
 }
 
+main .container ul li .editBtn:hover {
+  background-color: yellow;
+  color: white;
+}
+
 .check p {
   text-decoration: underline;
   opacity: 0.5;
