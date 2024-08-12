@@ -1,0 +1,15 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "built": "npx tailwindcss -i ./src/Tailwind.css -o ./dist/CSS/style.css",
+    "watch": "npx tailwindcss -i ./src/Tailwind.css -o ./dist/CSS/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}

@@ -1,0 +1,46 @@
+main .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+  margin: 25px 0;
+}
+
+main .container ul li p {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+main .container ul li p span {
+  padding-right: 15px;
+}
+
+main .container ul li a {
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  transition: 0.3s all ease;
+}
+
+main .container ul li a i {
+  font-size: 24px;
+}
+
+main .container ul li .del:hover {
+  background-color: red;
+  color: white;
+}
+
+main .container ul li .checkBtn:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.check p {
+  text-decoration: underline;
+  opacity: 0.5;
+}
