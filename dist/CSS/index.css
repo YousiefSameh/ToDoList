@@ -30,7 +30,7 @@ main .container ul li a i {
   font-size: 24px;
 }
 
-main .container ul li .del:hover {
+main .container ul li .delBtn:hover {
   background-color: red;
   color: white;
 }

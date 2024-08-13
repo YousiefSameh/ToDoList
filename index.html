@@ -13,10 +13,10 @@
     <h1 class="text-6xl font-bold border-b border-b-zinc-400 pb-5">To Do List</h1>
     <div class="container w-full lg:mx-auto lg:w-850 mt-5">
       <div class="form flex items-center justify-between">
-        <input type="text" placeholder="Please Enter The Task" class="text-xl flex-1 outline-none placeholder:text-zinc-600 font-bold text-zinc-600 p-5 border-b border-b-zinc-400">
-        <button class="w-fit px-5 py-4 rounded-full text-xl bg-black text-white font-bold transition-all cursor-pointer hover:bg-gray-800">Add</button>
+        <input type="text" placeholder="Please Enter The Task" id="input" class="text-xl flex-1 outline-none placeholder:text-zinc-600 font-bold text-zinc-600 pb-5 border-b border-b-zinc-400">
+        <input type="submit" value="Add" id="add" class="w-fit px-5 py-4 rounded-full text-xl bg-black text-white font-bold transition-all cursor-pointer hover:bg-gray-800">
       </div>
-      <ul class="list mt-6"></ul>
+      <ul class="list mt-6" id="list"></ul>
     </div>
   </main>
   <script src="dist/JS/main.js"></script>
