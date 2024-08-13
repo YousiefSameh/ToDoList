@@ -107,7 +107,7 @@ function deleteTaskWith(taskId) {
 function toggleStatusTaskWith(taskID) {
   for (let i = 0; i < arrayOfTasks.length; i++) {
     if (arrayOfTasks[i].id === taskID) {
-      arrayOfTasks[i].completed == false ? arrayOfTasks[i].completed = true : arrayOfTasks[i].completed = false
+      arrayOfTasks[i].completed === false ? arrayOfTasks[i].completed = true : arrayOfTasks[i].completed = false;
     }
   }
   addTasksToLocalStorageFrom(arrayOfTasks);

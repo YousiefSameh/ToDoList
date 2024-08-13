@@ -1,3 +1,6 @@
+body {
+  font-family: "Changa", sans-serif;
+}
 main .container ul li {
   display: flex;
   align-items: center;
@@ -10,7 +13,7 @@ main .container ul li {
 main .container ul li p {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -30,6 +33,16 @@ main .container ul li a i {
   font-size: 24px;
 }
 
+@media only screen and (max-width: 567px) and (min-width: 300px) {
+  main .container ul li a {
+    padding: 5px;
+  }
+  main .container ul li a i {
+    font-size: 18px;
+  }
+}
+
+
 main .container ul li .delBtn:hover {
   background-color: red;
   color: white;
@@ -45,7 +58,7 @@ main .container ul li .editBtn:hover {
   color: white;
 }
 
-.check p {
-  text-decoration: underline;
-  opacity: 0.5;
+.check {
+  background-color: lightgreen;
+  opacity: 0.7;
 }
